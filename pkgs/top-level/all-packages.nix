@@ -1409,6 +1409,7 @@ with pkgs;
   };
 
   cf-vault = callPackage ../tools/admin/cf-vault { };
+  cfengine = callPackage ../tools/admin/cfengine { };
 
   cfonts = callPackage ../tools/misc/cfonts { };
 
